@@ -1,0 +1,43 @@
+# Virtual environment
+coffee-deforestation-checker-venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Earth Engine credentials
+.config/earthengine/
+credentials
+
+# Satellite data (too large for GitHub)
+*.tif
+*.tiff
+*.geotiff
+*.nc
+*.h5
+*.hdf5
+data/raw/
+data/processed/
+
+# Model weights (too large for GitHub)
+*.pth
+*.pt
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.env
